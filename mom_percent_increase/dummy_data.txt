@@ -1,0 +1,11 @@
+# dummy data for practice
+
+create table logins(user_id int, date date) 
+select * from logins
+
+
+insert into logins(user_id,date) values(1,'2018-07-01');
+insert into logins(user_id,date) values(6,'2018-07-01');
+insert into logins(user_id,date) values(22,'2018-08-01');
+insert into logins(user_id,date) values(1,'2018-06-01');
+insert into logins(user_id,date) values(5,'2018-10-01');
