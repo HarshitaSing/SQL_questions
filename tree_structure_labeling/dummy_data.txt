@@ -1,0 +1,8 @@
+create table tree(node int, parent int)
+select * from tree
+
+insert into tree values(1,2);
+insert into tree values(2,5);
+insert into tree values(3,5);
+insert into tree values(4,3);
+insert into tree values(5,null);
